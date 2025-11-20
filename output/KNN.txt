@@ -1,0 +1,18 @@
+--- METRICS FOR KNN ---
+Accuracy: 90.89%
+AUC: nan
+Execution Time: 0.0002s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       0.96      0.87      0.91        30
+       MSSQL       0.89      0.82      0.85       117
+     NetBIOS       0.97      1.00      0.99        72
+     Portmap       0.00      0.00      0.00         2
+         Syn       1.00      1.00      1.00        95
+         UDP       0.75      0.88      0.81        68
+
+    accuracy                           0.91       384
+   macro avg       0.65      0.65      0.65       384
+weighted avg       0.91      0.91      0.91       384

@@ -1,0 +1,18 @@
+--- METRICS FOR SVM ---
+Accuracy: 91.67%
+AUC: nan
+Execution Time: 0.0148s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       0.93      0.90      0.92        30
+       MSSQL       0.81      0.97      0.88       117
+     NetBIOS       0.97      1.00      0.99        72
+     Portmap       0.00      0.00      0.00         2
+         Syn       1.00      1.00      1.00        95
+         UDP       0.96      0.66      0.78        68
+
+    accuracy                           0.92       384
+   macro avg       0.67      0.65      0.65       384
+weighted avg       0.92      0.92      0.91       384

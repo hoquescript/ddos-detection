@@ -1,0 +1,18 @@
+--- METRICS FOR XGBOOST ---
+Accuracy: 94.27%
+AUC: nan
+Execution Time: 0.3175s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       0.97      1.00      0.98        30
+       MSSQL       0.97      0.88      0.92       117
+     NetBIOS       0.96      0.96      0.96        72
+     Portmap       0.00      0.00      0.00         2
+         Syn       1.00      1.00      1.00        95
+         UDP       0.84      0.96      0.90        68
+
+    accuracy                           0.94       384
+   macro avg       0.68      0.68      0.68       384
+weighted avg       0.95      0.94      0.94       384

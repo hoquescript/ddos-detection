@@ -1,0 +1,18 @@
+--- METRICS FOR RANDOM_FOREST ---
+Accuracy: 95.31%
+AUC: nan
+Execution Time: 0.0843s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       1.00      0.97      0.98        30
+       MSSQL       0.96      0.90      0.93       117
+     NetBIOS       0.97      1.00      0.99        72
+     Portmap       0.00      0.00      0.00         2
+         Syn       1.00      1.00      1.00        95
+         UDP       0.84      0.96      0.90        68
+
+    accuracy                           0.95       384
+   macro avg       0.68      0.69      0.69       384
+weighted avg       0.95      0.95      0.95       384

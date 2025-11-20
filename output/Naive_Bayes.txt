@@ -1,0 +1,18 @@
+--- METRICS FOR NAIVE_BAYES ---
+Accuracy: 80.47%
+AUC: nan
+Execution Time: 0.0004s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       0.93      0.87      0.90        30
+       MSSQL       0.83      0.89      0.86       117
+     NetBIOS       0.94      0.46      0.62        72
+     Portmap       0.03      0.50      0.05         2
+         Syn       0.99      0.99      0.99        95
+         UDP       0.84      0.75      0.79        68
+
+    accuracy                           0.80       384
+   macro avg       0.65      0.64      0.60       384
+weighted avg       0.89      0.80      0.83       384

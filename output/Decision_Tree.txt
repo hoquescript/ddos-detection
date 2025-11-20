@@ -1,0 +1,18 @@
+--- METRICS FOR DECISION_TREE ---
+Accuracy: 89.84%
+AUC: nan
+Execution Time: 0.0039s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.00      0.00      0.00         0
+        LDAP       1.00      0.93      0.97        30
+       MSSQL       0.92      0.83      0.87       117
+     NetBIOS       0.96      0.89      0.92        72
+     Portmap       0.00      0.00      0.00         2
+         Syn       1.00      1.00      1.00        95
+         UDP       0.73      0.90      0.80        68
+
+    accuracy                           0.90       384
+   macro avg       0.66      0.65      0.65       384
+weighted avg       0.91      0.90      0.90       384
