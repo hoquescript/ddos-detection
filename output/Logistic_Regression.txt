@@ -1,0 +1,19 @@
+--- METRICS FOR LOGISTIC_REGRESSION ---
+Accuracy: 97.18%
+AUC: 0.9808
+Execution Time: 265.6742s
+
+              precision    recall  f1-score   support
+
+      BENIGN       0.97      0.95      0.96     21076
+        LDAP       1.00      1.00      1.00    748675
+       MSSQL       0.98      0.96      0.97   2234187
+     NetBIOS       0.95      1.00      0.98   1406412
+     Portmap       0.03      0.00      0.00     70917
+         Syn       1.00      1.00      1.00   1647032
+         UDP       0.94      0.97      0.96   1515850
+      UDPLag       0.32      0.17      0.22       733
+
+    accuracy                           0.97   7644882
+   macro avg       0.77      0.76      0.76   7644882
+weighted avg       0.96      0.97      0.97   7644882
